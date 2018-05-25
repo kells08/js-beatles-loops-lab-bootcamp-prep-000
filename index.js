@@ -25,5 +25,8 @@ function iLoveTheBeatles(n) {
 }
 
 do {
-  console.log("I love the Beatles!")
-} while (iLoveTheBeatles());
+  love.push("I love the Beatles!")
+  n++
+} while (n < 15);
+
+return love;
